@@ -3,7 +3,7 @@ import { ClientAdapter, FixedContext } from '@vodyani/core';
 import { BaseRedis, RedisOptions } from '../common';
 
 export class RedisAdapter implements ClientAdapter {
-  public instance: any;
+  public instance: BaseRedis;
 
   constructor(options: RedisOptions) {
     this.instance = new BaseRedis(options);
