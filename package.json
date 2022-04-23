@@ -65,7 +65,7 @@
     ]
   },
   "dependencies": {
-    "@vodyani/core": "^0.3.2",
+    "@vodyani/core": "^0.3.6",
     "ioredis": "^5.0.3"
   },
   "peerDependencies": {
